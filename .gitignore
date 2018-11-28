@@ -1,4 +1,3 @@
-**.gradle
 *.class
 **/bin
 **/lib
@@ -9,6 +8,7 @@
 [Bb]in/
 pkg/
 objd/
+.gradle/
 TestResults/
 .nuget/
 *.sln.ide/
@@ -25,7 +25,6 @@ nuget.exe
 *.sln.ide
 
 # For Java
-.gradle
 *.class
 .classpath
 .project
