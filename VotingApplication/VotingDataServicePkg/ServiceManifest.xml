@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ServiceManifest Name="VotingDataServicePkg" Version="1.0.1" xmlns="http://schemas.microsoft.com/2011/01/fabric" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ServiceManifest Name="VotingDataServicePkg" Version="1.0.2" xmlns="http://schemas.microsoft.com/2011/01/fabric" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Description>Service that implements a VotingDataService service</Description>
   <ServiceTypes>
     <StatefulServiceType ServiceTypeName="VotingDataServiceType" HasPersistedState="true" />
   </ServiceTypes>
-  <CodePackage Name="Code" Version="1.0.1">
+  <CodePackage Name="Code" Version="1.0.2">
     <EntryPoint>
       <ExeHost>
         <Program>entryPoint.sh</Program>
